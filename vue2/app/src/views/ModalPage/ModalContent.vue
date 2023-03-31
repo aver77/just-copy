@@ -9,7 +9,7 @@
         <div class="modal-user" v-for="mu in getModalUsers" :key="mu.id">
             <h3>{{mu.name}} {{mu.age}}</h3>
             <p>{{mu.task}}</p>
-            <button @click="() => deleteMU(mu.id)" style="color: red">Удалить пользователя</button>
+            <button @click="() => deleteMU(mu.id)" style="color: red">Удалить пользователя!</button>
         </div>
     </div>
 </template>
